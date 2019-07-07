@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC13F36C22D217BC00966FA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13F36B22D217BC00966FA1 /* AppDelegate.swift */; };
+		AC13F36E22D2181900966FA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13F36D22D2181900966FA1 /* ViewController.swift */; };
+		AC80A83B22CE8F9A0041A423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC80A83922CE8F9A0041A423 /* Main.storyboard */; };
+		AC80A83D22CE8FA20041A423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC80A83C22CE8FA20041A423 /* Assets.xcassets */; };
+		AC80A84022CE8FA20041A423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC80A83E22CE8FA20041A423 /* LaunchScreen.storyboard */; };
+		ACB72DC222D0B0510044C9EB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB72DBC22D0B0510044C9EB /* ThirdViewController.swift */; };
+		ACB72DC422D0B0510044C9EB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB72DBE22D0B0510044C9EB /* CollectionViewCell.swift */; };
+		ACB72DCF22D0B08D0044C9EB /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB72DC922D0B08D0044C9EB /* SWXMLHash.swift */; };
+		ACB72DD022D0B08D0044C9EB /* i2iCellWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB72DCA22D0B08D0044C9EB /* i2iCellWebService.swift */; };
+		ACB72DD122D0B08D0044C9EB /* SoapHttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB72DCB22D0B08D0044C9EB /* SoapHttpClient.swift */; };
+		ACB72DD222D0B08D0044C9EB /* SWXMLHash+TypeConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB72DCC22D0B08D0044C9EB /* SWXMLHash+TypeConversion.swift */; };
+		ACB72DD322D0B08D0044C9EB /* SoapHttpClientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB72DCE22D0B08D0044C9EB /* SoapHttpClientExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC12F6DE22D2230600625348 /* i2iCELL-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "i2iCELL-Bridging-Header.h"; sourceTree = "<group>"; };
+		AC13F36B22D217BC00966FA1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../IOS_App/Cell2i/AppDelegate.swift; sourceTree = "<group>"; };
+		AC13F36D22D2181900966FA1 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../IOS_App/Cell2i/ViewController.swift; sourceTree = "<group>"; };
+		AC80A83222CE8F9A0041A423 /* i2iCELL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = i2iCELL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC80A83A22CE8F9A0041A423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC80A83C22CE8FA20041A423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC80A83F22CE8FA20041A423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACB72DBC22D0B0510044C9EB /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		ACB72DBE22D0B0510044C9EB /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		ACB72DC822D0B08D0044C9EB /* SWXMLHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWXMLHash.h; sourceTree = "<group>"; };
+		ACB72DC922D0B08D0044C9EB /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		ACB72DCA22D0B08D0044C9EB /* i2iCellWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = i2iCellWebService.swift; sourceTree = "<group>"; };
+		ACB72DCB22D0B08D0044C9EB /* SoapHttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapHttpClient.swift; sourceTree = "<group>"; };
+		ACB72DCC22D0B08D0044C9EB /* SWXMLHash+TypeConversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SWXMLHash+TypeConversion.swift"; sourceTree = "<group>"; };
+		ACB72DCE22D0B08D0044C9EB /* SoapHttpClientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoapHttpClientExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC80A82F22CE8F9A0041A423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC80A82922CE8F9A0041A423 = {
+			isa = PBXGroup;
+			children = (
+				AC80A83422CE8F9A0041A423 /* i2iCELL */,
+				AC80A83322CE8F9A0041A423 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC80A83322CE8F9A0041A423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC80A83222CE8F9A0041A423 /* i2iCELL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC80A83422CE8F9A0041A423 /* i2iCELL */ = {
+			isa = PBXGroup;
+			children = (
+				AC13F36B22D217BC00966FA1 /* AppDelegate.swift */,
+				ACB72DBE22D0B0510044C9EB /* CollectionViewCell.swift */,
+				ACB72DBC22D0B0510044C9EB /* ThirdViewController.swift */,
+				AC13F36D22D2181900966FA1 /* ViewController.swift */,
+				AC80A83922CE8F9A0041A423 /* Main.storyboard */,
+				AC80A83C22CE8FA20041A423 /* Assets.xcassets */,
+				AC80A83E22CE8FA20041A423 /* LaunchScreen.storyboard */,
+				ACB72DCA22D0B08D0044C9EB /* i2iCellWebService.swift */,
+				AC12F6DE22D2230600625348 /* i2iCELL-Bridging-Header.h */,
+				ACB72DCB22D0B08D0044C9EB /* SoapHttpClient.swift */,
+				ACB72DCE22D0B08D0044C9EB /* SoapHttpClientExtension.swift */,
+				ACB72DC822D0B08D0044C9EB /* SWXMLHash.h */,
+				ACB72DC922D0B08D0044C9EB /* SWXMLHash.swift */,
+				ACB72DCC22D0B08D0044C9EB /* SWXMLHash+TypeConversion.swift */,
+			);
+			path = i2iCELL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC80A83122CE8F9A0041A423 /* i2iCELL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC80A84422CE8FA20041A423 /* Build configuration list for PBXNativeTarget "i2iCELL" */;
+			buildPhases = (
+				AC80A82E22CE8F9A0041A423 /* Sources */,
+				AC80A82F22CE8F9A0041A423 /* Frameworks */,
+				AC80A83022CE8F9A0041A423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = i2iCELL;
+			productName = i2iCELL;
+			productReference = AC80A83222CE8F9A0041A423 /* i2iCELL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC80A82A22CE8F9A0041A423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = osman;
+				TargetAttributes = {
+					AC80A83122CE8F9A0041A423 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = AC80A82D22CE8F9A0041A423 /* Build configuration list for PBXProject "i2iCELL" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC80A82922CE8F9A0041A423;
+			productRefGroup = AC80A83322CE8F9A0041A423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC80A83122CE8F9A0041A423 /* i2iCELL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC80A83022CE8F9A0041A423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC80A84022CE8FA20041A423 /* LaunchScreen.storyboard in Resources */,
+				AC80A83D22CE8FA20041A423 /* Assets.xcassets in Resources */,
+				AC80A83B22CE8F9A0041A423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC80A82E22CE8F9A0041A423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC13F36C22D217BC00966FA1 /* AppDelegate.swift in Sources */,
+				ACB72DD122D0B08D0044C9EB /* SoapHttpClient.swift in Sources */,
+				ACB72DCF22D0B08D0044C9EB /* SWXMLHash.swift in Sources */,
+				AC13F36E22D2181900966FA1 /* ViewController.swift in Sources */,
+				ACB72DD022D0B08D0044C9EB /* i2iCellWebService.swift in Sources */,
+				ACB72DC222D0B0510044C9EB /* ThirdViewController.swift in Sources */,
+				ACB72DC422D0B0510044C9EB /* CollectionViewCell.swift in Sources */,
+				ACB72DD322D0B08D0044C9EB /* SoapHttpClientExtension.swift in Sources */,
+				ACB72DD222D0B08D0044C9EB /* SWXMLHash+TypeConversion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC80A83922CE8F9A0041A423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC80A83A22CE8F9A0041A423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC80A83E22CE8FA20041A423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC80A83F22CE8FA20041A423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC80A84222CE8FA20041A423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC80A84322CE8FA20041A423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC80A84522CE8FA20041A423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F6Z8TRF3D;
+				INFOPLIST_FILE = i2iCELL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telecom.i2iCELL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "i2iCELL/i2iCELL-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC80A84622CE8FA20041A423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F6Z8TRF3D;
+				INFOPLIST_FILE = i2iCELL/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = telecom.i2iCELL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "i2iCELL/i2iCELL-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC80A82D22CE8F9A0041A423 /* Build configuration list for PBXProject "i2iCELL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC80A84222CE8FA20041A423 /* Debug */,
+				AC80A84322CE8FA20041A423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC80A84422CE8FA20041A423 /* Build configuration list for PBXNativeTarget "i2iCELL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC80A84522CE8FA20041A423 /* Debug */,
+				AC80A84622CE8FA20041A423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC80A82A22CE8F9A0041A423 /* Project object */;
+}
